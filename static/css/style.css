@@ -1,0 +1,21 @@
+body {
+    background-color: #ff4c68;
+    color: #fff;
+}
+td {
+    color: #fff;
+}
+.bg-color {
+    background-color: #ff4c68;
+}
+.my-100 {
+    margin-top: 100px;;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+}
+
+.navbar-nav {
+    font-size: 1.5rem;
+}
