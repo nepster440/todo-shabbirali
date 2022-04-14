@@ -55,13 +55,12 @@ def update(sno):
     return render_template("update.html", todo=todo)
 
 
-@app.route('/delete/<int:sno>', methods=["GET", "POST"])
+@app.route('/delete/<int:sno>')
 def delete(sno):
-    if request.method == "POST":
-        todo = Todo.query.filter_by(sno=sno).first()
-        db.session.delete(todo)
-        db.session.commit()
-        return redirect("/")
+    todo = Todo.query.filter_by(sno=sno).first()
+    db.session.delete(todo)
+    db.session.commit()
+    return redirect("/")
 
 
 if __name__ == "__main__":
