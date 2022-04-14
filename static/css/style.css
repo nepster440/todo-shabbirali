@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
 body {
+    font-family: "Ubuntu", sans-serif;
     background-color: #ff4c68;
     color: #fff;
 }
@@ -13,6 +16,8 @@ td {
 }
 
 .navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
     font-size: 3rem;
 }
 
